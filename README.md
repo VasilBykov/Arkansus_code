@@ -8,7 +8,7 @@ This repository contains the source files for the game Arkansus.
 4. Завершить проект
 
 **Более подробное описание того, что мы делаем**
-- [Документация и план работы](https://docs.google.com/document/d/1-FNtMy5PaHZNzfVl2Z6A8JGhjQOaJF_p2UcBUs_aYZY/edit?usp=sharing)
+- [Документация](https://docs.google.com/document/d/1-FNtMy5PaHZNzfVl2Z6A8JGhjQOaJF_p2UcBUs_aYZY/edit?usp=sharing)
 
 > [!WARNING]
 > * Если вам непонятно, что именно вам надо сделать - спросите еще раз.
