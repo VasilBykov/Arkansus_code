@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="drawing.cpp" />
     <ClCompile Include="duel.cpp" />
     <ClCompile Include="events_1931.cpp" />
     <ClCompile Include="events_pavel.cpp" />

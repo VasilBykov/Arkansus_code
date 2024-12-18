@@ -5,6 +5,7 @@
 using namespace std;
 
 void duelMechanics();
+void drawCity();
 
 int main()
 {
@@ -157,7 +158,8 @@ int main()
     default:
         cout << "Непредвиденный случай!" << endl;
     }
-
+    cout << "Ваш город" << endl;
+    drawCity();
     cout << "Ваш итоговый счёт: " << score << " баллов." << endl; // Итоговый результат
     return 0;
 }

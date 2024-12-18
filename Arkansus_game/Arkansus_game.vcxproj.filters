@@ -45,6 +45,9 @@
     <ClCompile Include="duel.cpp">
       <Filter>Исходные файлы\Game Mechanics</Filter>
     </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="structure.h">
