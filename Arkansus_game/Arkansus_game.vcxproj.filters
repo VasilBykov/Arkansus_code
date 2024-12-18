@@ -39,9 +39,18 @@
     <ClCompile Include="random_event.cpp">
       <Filter>Исходные файлы\Main</Filter>
     </ClCompile>
+    <ClCompile Include="events_pavel.cpp">
+      <Filter>Исходные файлы\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="duel.cpp">
+      <Filter>Исходные файлы\Game Mechanics</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="structure.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Header_pavel.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
