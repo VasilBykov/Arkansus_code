@@ -6,7 +6,7 @@ using namespace std;
 
 void events_1931()
 {
-    setlocale(LC_CTYPE, "Russian");
+    setlocale(LC_CTYPE, "Russian");//ghb
 
     srand((unsigned)time(NULL));
     int incident = rand() % 2 + 1;
