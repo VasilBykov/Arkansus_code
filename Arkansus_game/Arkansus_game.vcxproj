@@ -137,7 +137,6 @@
     <ClCompile Include="random_event.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header_pavel.h" />
     <ClInclude Include="structure.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

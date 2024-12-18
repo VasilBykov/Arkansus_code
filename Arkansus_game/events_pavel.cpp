@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "Header_pavel.h"
+#include "structure.h"
 using namespace std;
 
 void duelMechanics();

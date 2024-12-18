@@ -6,3 +6,6 @@ void game_points(int karma_points);
 
 void events_1931();
 
+void duelMechanics();
+void drawCity();
+

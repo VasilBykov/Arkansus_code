@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Header_pavel.h"
+#include "structure.h"
 using namespace std;
 
 void duelMechanics() {
