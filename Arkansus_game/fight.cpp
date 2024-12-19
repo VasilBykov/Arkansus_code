@@ -55,12 +55,12 @@ void fight(int enemy_max_damage, int enemy_protection, int enemy_health)
     {
         int karma_points = 1;
         game_points(karma_points);
-        cout << "Вы победили!\n";
+        cout << "Вы победили драке! Хотя чему тут можно радоваться...\n";
     }
     else
     {
         int karma_points = -3;
         game_points(karma_points);
-        cout << "Вы проиграли...\n";
+        cout << "Вы проиграли... Но ничего, в следующий раз обязательно получится...\n";
     }
 }

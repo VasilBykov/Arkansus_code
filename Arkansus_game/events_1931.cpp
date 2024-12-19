@@ -52,12 +52,11 @@ void events_1931()
                 enemy_protection = 21;
                 enemy_health = 100;
                 fight(enemy_max_damage, enemy_protection, enemy_health); // Передача выполнения функции "Драка"
-
                 break;
             }
             else
             {
-                cout << "Рабочий Майкл: Я понял вас... Уже ухожу.";
+                cout << "Рабочий Майкл: Я понял вас... Уже ухожу.\n";
                 karma_points = 1;
                 game_points(karma_points);
                 break;

@@ -1,4 +1,6 @@
 #include <iostream>
+#include <iomanip>
+#include <cstdlib>
 #include "structure.h"
 
 using namespace std;
@@ -6,21 +8,24 @@ using namespace std;
 void event_selection()
 {
 	int rmn = 1, rmx = 4;
-	const int MAX = 25;
+	const int MAX = 24;
 	int Game_Event[MAX];
 	int choice;
 
-	srand((unsigned)time(NULL)); //генерируем случайные числа от 1 до 25 и заполняем ими массив - события в игре, что произойдут.
+	srand((unsigned)time(NULL));
+
 	for (int i = 0; i < MAX; ++i)
 	{
-		Game_Event[i] = rand() % rmx + rmn;
-		cout << Game_Event[i] << " ";
+		Game_Event[i] = 1;
+		// Game_Event[i] = rand() % rmx + rmn;
 	}
-	cout << "\n"; // для быстрого контроля
 
 	for (int i = 0; i < MAX; ++i)
 	{
 		choice = Game_Event[i];
+
+		char symbol = '-';
+		cout << "-День №" << i + 1 << setw(75) << setfill(symbol) << symbol << endl;
 
 		switch (choice)
 		{
@@ -37,6 +42,8 @@ void event_selection()
 			break;
 		}
 	}
+
+	game_points_result();
 
 	cout << "Спасибо за игру!\n";
 }
